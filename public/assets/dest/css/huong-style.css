@@ -1,0 +1,56 @@
+.fixNav{
+  width: 100%;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: 100000000;
+}
+.cart-body{
+	z-index:999;
+}
+.inner-header{
+	background-color: #ffffff
+}
+.inner-title,.beta-breadcrumb, .beta-breadcrumb a{
+	color: black
+}
+.main-menu>ul.l-inline> li> a{
+	color: #fff;
+	padding: 10px 35px
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.cart-remove {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.font-size-15 {
+  font-size: 15px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.qty {
+  font-size: 15px;
+  padding: 1rem;
+}
+
+.hidden-text {
+  white-space: nowrap; 
+  width: 250px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
